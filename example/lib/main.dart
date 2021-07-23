@@ -1,5 +1,6 @@
 import 'package:amap_core_fluttify/amap_core_fluttify.dart';
 import 'package:amap_location_fluttify/amap_location_fluttify.dart';
+import 'package:amap_location_fluttify_example/dimens.dart';
 import 'package:decorated_flutter/decorated_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';

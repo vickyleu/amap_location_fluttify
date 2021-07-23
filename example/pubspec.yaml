@@ -8,9 +8,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^0.1.3
-  decorated_flutter: ^0.18.0
-  permission_handler: ^5.0.0
+  cupertino_icons: ^1.0.3
+  decorated_flutter: ^0.33.0
+  permission_handler: ^8.1.4
 
 #dependency_overrides:
 #  foundation_fluttify:
@@ -19,10 +19,11 @@ dependencies:
 #    path: /Users/yohom/Github/Me/All/fluttify/fluttify_infra/core_location_fluttify
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   amap_location_fluttify:
     path: ../
+
+dependency_overrides:
+  intl: 0.17.0
 
 flutter:
   uses-material-design: true
